@@ -26,7 +26,7 @@ under the License.
   <parent>
     <groupId>ml.dmlc.mxnet</groupId>
     <artifactId>mxnet-full-parent_2.11</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -38,12 +38,12 @@ under the License.
     <dependency>
       <groupId>ml.dmlc.mxnet</groupId>
       <artifactId>mxnet-core_${scala.binary.version}</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>ml.dmlc.mxnet</groupId>
       <artifactId>libmxnet-scala-osx-x86_64-cpu</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0</version>
       <type>jnilib</type>
     </dependency>
   </dependencies>
